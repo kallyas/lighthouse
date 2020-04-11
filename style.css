@@ -322,3 +322,12 @@ blockquote p {
   width: 120px;
   transition: 0.4s ease-out;
 }
+
+.container {
+  position: absolute;
+  height: 300px;
+  width: 600px;
+  top: 60px;
+  left: calc(50% - 300px);
+  display: flex;
+}
