@@ -266,7 +266,7 @@ blockquote p {
 /*   margin-left: -50px; */
   transition: 0.4s ease-out;
   position: relative;
-  left: 0px;
+  left: 50px;
 }
 
 
@@ -324,10 +324,9 @@ blockquote p {
 }
 
 .container {
-  position: absolute;
-  height: 300px;
-  width: 600px;
-  top: 60px;
-  left: calc(50% - 300px);
+  position: relative;
+  height: auto;
   display: flex;
+  flex-direction: column;
+  padding: 50px;
 }
