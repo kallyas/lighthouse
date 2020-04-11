@@ -178,8 +178,11 @@ main {
   }
 
   .blockquote-main {
-      padding: 0px;
-  }
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction: column;
+}
 }
 
 .dark {
@@ -239,7 +242,7 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 blockquote p {
-  display: inline;
+  display: inline-flexbox;
 }
 
 .blockquote-main {
