@@ -184,6 +184,15 @@ main {
     left: 0px;
   }
 
+  .blockquote-main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-left: 200px;
+    padding-right: 200px;
+    flex-direction: column;
+}
+
 }
 
 .dark {
@@ -246,11 +255,3 @@ blockquote p {
   display: inline-flexbox;
 }
 
-.blockquote-main {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    padding-left: 200px;
-    padding-right: 200px;
-    flex-direction: column;
-}
