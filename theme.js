@@ -4,6 +4,7 @@ const themeMap = {
   solar: "dark"
 };
 
+//store to local storage
 const theme = localStorage.getItem('theme')
   || (tmp = Object.keys(themeMap)[0],
       localStorage.setItem('theme', tmp),
